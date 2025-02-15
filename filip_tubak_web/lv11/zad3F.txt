@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!DOCTYPE html>
+<html>
+<body>
+<header>
+<h1>Boje</h1>
+</header>
+<figure>
+<figcaption>Raznolikost boja</figcaption>
+<img src="https://valerijab.pgsri.hr/rad/wp-content/gallery/slike_1/krug-boja.jpg">
+</figure>
+<section>
+  <h1>Tople boje<h1>
+  <article>
+  <h2>Crvena</h2>
+  <p>Crvena je snažna, energična boja koja simbolizuje strast, ljubav, snagu i energiju. Ova boja može izazvati intenzivne emocije, kao što su uzbuđenje ili uzbuđenost, i često se koristi u dizajnu da privuče pažnju. Crvena takođe podstiče aktivnost, pobuđuje apetit i može povećati krvni pritisak, zbog čega je često prisutna u restoranima i prostorima koji traže živahnu atmosferu.</p>
+  </article>
+  
+  <article>
+  <h2>Naranđasta</h2>
+  <p>Narandžasta je topla boja koja se često povezuje sa suncem, veseljem i kreativnošću. Ona izaziva osećaj optimizma i entuzijazma, te je boja koja podstiče komunikaciju i društvene interakcije. Narandžasta je boja koja poziva na akciju i često se koristi u marketingu da izazove osećaj urgencije i podstakne donošenje odluka.
+</p>
+  </article>
+  
+  <article>
+  <h2>Žuta</h2>
+  <p>Žuta je svetla, vesela boja koja simbolizuje sreću, optimizam i intelekt. Povezana je sa svetlom i sunčevom energijom, te izaziva osećaj topline i pozitivnosti. Žuta boja podstiče mentalnu stimulaciju i kreativnost, ali može biti i umorna ako je previše zastupljena, zbog čega je najbolje koristiti je u malim količinama da bi se postigao željeni efekat.</p>
+  </article>
+</section>
+
+<section>
+  <h1>Hladne boje<h1>
+  <article>
+  <h2>Plava</h2>
+  <p>Plava je boja koja se često povezuje s morem, nebom i smirenjem. Smatra se umirujućom bojom koja donosi osećaj hladnoće, svežine i stabilnosti. Takođe se koristi za stvaranje osećaja dubine i širine u prostoru. U psihologiji boja, plava može smanjiti stres i povećati produktivnost.</p>
+  </article>
+  
+  <article>
+  <h2>Zelena</h2>
+  <p>Zelena je boja koja simbolizuje prirodu, rast i harmoniju. Ona je umirujuća i uravnotežujuća, često povezana s opuštanjem i revitalizacijom. Zelena boja se takođe koristi da stvori osećaj mira i stabilnosti, a mnogi je povezuju sa zdravljem i plodnošću.</p>
+  </article>
+  
+  <article>
+  <h2>Ljubičasta</h2>
+  <p>Ljubičasta je boja koja kombinuje plavu i crvenu, stvarajući tako sofisticiran i misteriozan efekat. Ova boja često simbolizuje duhovnost, kreativnost i luksuz. Ljubičasta može izazvati osećaj smirenosti, ali i inspiracije, te se često koristi u prostorima gde je željena opuštajuća, ali i nadahnjujuća atmosfera.
+</p>
+  </article>
+</section>
+<footer>Filip Tubak i Sven Roth 3.B</footer>
+
+</body>
+</html>
+
+
+
