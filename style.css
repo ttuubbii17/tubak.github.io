@@ -1,0 +1,132 @@
+/* Opći stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #11881b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigacija */
+nav {
+    background: #0d770d;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li:hover {
+    background: #035e0f;
+}
+
+/* Padajući meni */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #056012;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 150px;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+    display: block;
+}
+
+/* Glavni sadržaj */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #025115;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Povratak na početnu stranicu */
+.back-home {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    background: #057e31;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.back-home:hover {
+    background: #066f0f;
+}
+
+/* Sekcije sadržaja */
+.content-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #fff;
+    border-left: 5px solid #087833;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Iframe za prikaz dokumenata */
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #077220;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
