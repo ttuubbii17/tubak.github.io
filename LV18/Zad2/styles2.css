@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.calendar-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    background-color: #ff8c00;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.month-name {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.year {
+    font-size: 1.2em;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+}
+
+.calendar th, .calendar td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    text-align: center;
+    align-items: center;
+}
+
+.calendar th {
+    background-color: #f2f2f2;
+    text-align: center;
+    align-items: center;
+}
+
+.holiday {
+    background-color: #ffcccb;
+    text-align: center;
+    align-items: center;
+}
+
+.image-container {
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.month-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    text-align: center;
+    align-items: center;
+}
