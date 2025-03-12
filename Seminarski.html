@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predmeti | Filip Tubak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>RM_Predmet</h1>
+    <p>Laboratorijske vježbe i Seminarski radovi</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Predmeti</a>
+            <ul>
+                <li><a href="RM.html">RM</a></li>
+                <li><a href="SJWP.html">SJWP</a></li>
+                <li><a href="Seminarski.html">Seminarski</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main>
+    <!-- Link za povratak na početnu stranicu -->
+    <a href="index.html" class="back-home">Povratak na početnu stranicu</a>
+
+    <div class="seminarski">
+        <h2>Zaštita bežičnih mreža</h2>
+        <h4>Uvod</h4>
+        <p> Svijet je danas nezamisliv bez bežičnih mreža. Koriste 
+            se za spajanje mobilnih uređaja i računala na internet 
+            i praktički omogućuju stalnu povezanost gdje god 
+            se nalazili. Čim se povežete na neku bežičnu („WiFi“) 
+            mrežu u kafiću, zračnoj luci, negdje na otvorenom ili 
+            doma, dobijete trenutačni pristup globalnoj mreži. 
+            Trend je da gradovi, odnosno lokalne zajednice i sl., 
+            grade svoje bežične mreže kako bi posjetitelji imali 
+            pristup internetu. Svim tim mrežama je zajedničko 
+            da za komunikaciju putem zraka (radio valovima) ko
+            riste protokol <a href="https://hr.wikipedia.org/wiki/IEEE_802.11">IEEE 802.11</a>.
+            Međutim, postoje ozbiljni sigurnosni rizici prilikom korištenja takvih mreža. 
+            Za krajnje korisnike to znači da spajanjem na nesigurnu 
+            mrežu ili mrežu koju kontroliraju zlonamjerni hakeri 
+            (“crackeri”), mogu odati svoje povjerljive podatke ne- 
+            željenim osobama. U tom slučaju netko može pre- 
+            sresti i špijunirati internetski promet korisnika te tako 
+            doći do informacija kao što su lozinke za pristup web 
+            servisima i dr.
+            <br>
+            Također, većina kućanstava posjeduje usmjerivač s 
+            bežičnim modulom koji putem radio valova omogu- 
+            ćuje spajanje vaših prijenosnih računala, pametnih 
+            mobitela, pametnih televizija i ostalih uređaja na inte- 
+            rnet. Naravno, sve to putem usmjeritelja kojeg kupac 
+            dobije od komercijalnog davatelja 
+            <a href="https://hr.wikipedia.org/wiki/Internet">internet</a> 
+            usluge (<a href="https://objasnjeno.com/sto-je-isp/">ISP-a</a>).
+            <br>
+            Jedna od očitih prednosti bežičnog spajanja je da nije 
+            potrebna vezanost kabelom za jedno mjesto. Problem 
+            je što se valovi, pomoću kojih se prenose podaci, šire  
+            u svim smjerovima te pokrivaju šire područje. Svatko  
+            u dometu vaše bežične mreže može se pokušati spojiti 
+            na nju i u slučaju da mu to pođe za rukom, može izvrši
+            ti razne zlonamjerne radnje. Usmjerivač je potrebno 
+            podesiti prema današnjim sigurnosnim standardima 
+            kako bi onemogućili zlonamjerne korisnike da koristeći 
+            taj pristup internetu ugrožavaju sigurnost ostalih  
+            internet korisnika, uključujući onih koji su spojeni na 
+            isti uređaj.
+            <h4>Opasnost</h4>
+            Iako danas većina korisnika, <a href="https://hr.wikipedia.org/wiki/Internet">internet</a> 
+            pristupaju s neograničenim paketom prometa, poznatijim pod nazivom 
+            <a href="https://en.wikipedia.org/wiki/Flat_rate">flat rate</a>, 
+            postoje neki razlozi zbog kojih bi trebalo zaštiti vlastitu bežićnu mrežu.
+            Osoba koja se koristi tuđim pristupom Internetu drugome korisniku u tom slučaju ne može nanijeti 
+            financijsku štetu (bar ne u opisanom smislu), sigurnost i ugoda surfanja mogle bi postati ozbiljno narušene. 
+            Naime, izdatak za korištenje Interneta time ne bi bio povećan, ali bi zato postojala realna opasnost od 
+            neovlaštenog pristupa računalu (što bi moglo, ali i ne bi moralo dovesti do financijske štete). 
+            Također, korištenjem pristupa narušila bi se brzina surfanja, a time i blagodati brzog Interneta.
+            <br>
+            Bitno je znati da svaki 
+            <a href="https://net.hr/magazin/slobodno-vrijeme/sto-je-adsl-zasto-je-vazan-adsl-0f2e1ec4-081b-11ed-9ad7-8e19cfbaf23b">ADSL</a> 
+            nudi određenu mogućnost zaštite, na što upućuju i sami pružatelji usluga pristupa. 
+            Međutim, problematično je što se korisnicima ne skreće dovoljno pozornosti na važnost zaštite vlastite bežične mreže.
+            U daljnjem tekstu ponuđeno je nekoliko riješenja za zaštitu bežične mreže.
+            <br>
+            <h4>Zaštita</h4>
+            Od 1990. godine kada su bežične mreže postale popularne, postavljala su se veoma dobra 
+            pitanja a tako i sumnje u vezi sigurnosti. Zbog takvih problema i rizika koje one predstavljaju 
+            dosta ljudi je prije mislilo da se one uopče ne bi trebale koristiti. No zbog svoje jednostavnosti 
+            korištenja i praktičnosti, jasno je da beţične mreže moraju ostati pa samim time moramo ih i 
+            zaštititi kako bi bili sigurni. Postoje 4 glavna mehanizma, tj. standarda koji služe za zaštitu 
+            WLAN prometa: <a href="https://hr.wikipedia.org/wiki/WEP">WEP</a>(Wired Equivalent Privacy), <a href="https://hr.wikipedia.org/wiki/WPA">WPA</a>
+            (Wi-Fi Protected Access), <a href="https://www.cis.hr/www.edicija/WPA2zatita.html">WPA2</a>(ažurirana verzija WPA koji koristi jači algoritam za zaštitu i teško je probiti takav 
+            mehanizam) i <a href="https://heritage-offshore.com/sigurnost-informacija/to-je-wpa3-je-li-siguran-i-trebam-li-ga-koristiti/">WPA3</a>(najnovija verzija WPA protokola).
+            <br>
+            <h5>WEP standard</h5>
+            WEP (Wired Equivalent Privacy) je sigurnosni protokol naveden od strane IEEE 
+            802.11 standarda koji je dizajniran da pruža bežičnoj lokalnoj mreži određenu sigurnost i 
+            privatnost usporedivo s onom šta pruža LAN kabel. LAN je obično zaštičen fizičkim 
+            sigurnosim mehanizmima koji su učinkoviti kada je u pitanju kontrolirana fizička okolina, ali 
+            može biti neučinkovita za bežični rad mreža jer radiovalovi ne moraju nuţno probiti zidove 
+            koje sadrže mrežu. WEP nastoji uspostaviti sličnu zaštitu kao mjera fizičke sigurnosti žične 
+            mreže pomoću slanja enkripcije podataka bežične mreže. Enkripcija podataka štiti ranjivu 
+            bežičnu povezanost između klijenata i pristupnih točaka, jednom kad je takva mjera poduzeta, 
+            ostali tipični LAN sigurnosni mehanizmi, kao što su zaštita lozinkom, E2EE6, virtualne 
+            privatne mreže (VPN), te provjere autentičnosti mogu se staviti na svoje mjesto kako bi se 
+            osigurala privatnost.
+            <br>
+            Cilj WEP-a je da se osigura sljedeće: 
+            <ul>
+                <li>povjerljivost poruka - osnovna namjena je sprječavanje prisluškivanja mreţnog 
+                    prometa</li>
+                <li>kontrolu pristupa – pristupne točke mogu zabraniti klijentima pristup mreţi ukoliko ne 
+                    zadovoljavaju provjeru indetiteta</li>
+                <li>integritet poruka – dodatno polje u okviru koje sluţi za provjeru integriteta samog 
+                    okvira </li>
+            </ul>
+            WEP se koristi radi zaštite podataka na sloju veze OSI modela. Sigurnost WEP-a je zasnovana 
+            na tajnosti ključa pomoću kojeg se tijelo okvira poruke šifrira na relaciji pristupna 
+            točka – klijent. Šifriranje se vrši u slijedećim koracima:
+            <ol>
+                <li>Zaštitno kodiranje</li>
+                <li>Šifriranje</li>
+            </ol>
+            <h5>WPA standardi</h5>
+            Organizacija <a href="https://www.wi-fi.org/who-we-are">Wi-Fi Alliance</a> projektirala je WPA (Wi-Fi Protected Access) u namjeri da 
+            otkloni nedostatke uočene u WEP standardu, a da se pritom zadrži kompatibilnost s 
+            postojećom mrežnom opremom. WPA nudi poboljšanje zaštite podataka i kontrole pristupa za 
+            WLAN sustave. Isplativiji je od današnjih IPSec rješenja, jer radi na drugom sloju OSI 
+            modela. WPA koristi:
+            <ul>
+                <li>protokol TKIP (Temporal Key Integrity Protocol) za šifriranje</li>
+                <li>standard 802.1x i neki od uobičajnih EAP protokola za provjeru identiteta</li>
+                <li>MIC (Message Integrity Check, pominje se i pod imenom „Michael“) za sprječavanje 
+                    lažiranja paketa</li>
+            </ul>
+            WPA predviđa mogućnost provjere identiteta pomoću dijeljenih ključeva, što je pogodno 
+            za manje mreže, i pomoću <a href="https://en.wikipedia.org/wiki/RADIUS">RADIUS servera</a>, 
+            što je pogodno za veće bežićne mreže. Prednost 
+            je da se može, bez većih troškova, ugraditi i u sadašnju mrežnu opremu. Dovoljno je 
+            instalirati nove pogonske programe u pristupnim točkama i klijentskim mrežnim karticama 
+            kako bi se prešlo na novi standard. Ukoliko se kupuje nova oprema važno je da ona podržava WPA.
+            <h6>Verzija 2 (WPA2)</h6>
+            WPA2 je nova generacija Wi-Fi sigurnosti u kojoj je Wi-Fi Alliance uveo 2004. godine. 
+            WPA2 provodi Nacionalni institut za standarde i tehnologiju (NIST). Ona u odnosu na sami 
+            WPA koristi algoritam AES7 umjesto RC4 u CBC8 načinu rada. „AES je mnogo jača 
+            enkripcija nego TKIP koji koristi WPA. Ključevi šifriranja koji koji se koriste za svakog 
+            korisnika na mreţi su jedinstveni i specifični za tog korisnika. U konačnici, svaki paket koji je 
+            poslan preko „zraka“ je šifriran s jedinstevnim ključem. MeĎutim, osnovni nedostatak WPA2 
+            je neophodno ulaganje u novu mrežnu opremu koja se može osigurati funkcioniranjem 
+            algoritma <a href="https://www.cis.hr/www.edicija/LinkedDocuments/CCERT-PUBDOC-2003-08-37.pdf">AES</a> 
+            bez većeg degradiranja performansi (Cisco, 2008). 
+            <h6>Verzija 3 (WPA3)</h6>
+            Prvo i osnovno WPA3 donosi dva različita modela, WPA3-Personal koji je namijenjen manjim mrežama i 
+            WPA3-Enterprise koji je namijenjen većim korporativnim mrežama. 
+            Oba modela ne dopuštaju zastarjele legacy protokole i zahtijevaju uporabu PMF 
+            (Protected Management Frames) servisa.
+            <br>
+            WPA3 nudi zaštitu od takozvanih napada rječnikom gdje napadač 
+            nastoji odgonetnuti lozinku koja štiti mrežu 
+            (djelotvornom kod korisnika koji postavljaju slabe lozinke), 
+            što je osigurano implementacijom novog protokola za razmjenu ključeva    
+            (Simultaneous Authentication of Equals).
+        </p>
+    </div>
+    
+</body>
