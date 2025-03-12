@@ -153,9 +153,6 @@ div .image-container {
     justify-content: center;
     align-items: center;
     margin: 20px 0;
-}
-
-div .image-container img {
     width: 200px;  /* Postavlja željenu širinu */
     height: 100px; /* Postavlja željenu visinu */
     object-fit: cover; /* Osigurava da slika zadrži oblik i ispuni okvir */
