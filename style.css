@@ -148,13 +148,13 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-div .image-container {
+div img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
-    width: 200px;  /* Postavlja željenu širinu */
-    height: 100px; /* Postavlja željenu visinu */
+    maxwidth: 400px;  /* Postavlja željenu širinu */
+    height: 500px; /* Postavlja željenu visinu */
     object-fit: cover; /* Osigurava da slika zadrži oblik i ispuni okvir */
     border-radius: 10px; /* Zaobljeni rubovi (opcionalno) */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Efekt sjene (opcionalno) */
