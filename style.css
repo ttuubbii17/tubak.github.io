@@ -5,6 +5,10 @@ body {
     padding: 0;
     background-color: black;
     color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Header */
