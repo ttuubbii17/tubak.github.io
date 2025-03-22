@@ -65,7 +65,7 @@ body {
 
 /* Header */
 header {
-    background: #11881b;
+    background: #060270;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -149,7 +149,7 @@ footer {
     margin-bottom: 20px;
     text-decoration: none;
     color: white;
-    background: #057e31;
+    background: #060270;
     padding: 10px 15px;
     border-radius: 5px;
 }
