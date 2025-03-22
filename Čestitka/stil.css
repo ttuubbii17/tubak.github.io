@@ -1,5 +1,6 @@
 
 svg {
+    text-align: center;    
     background: linear-gradient(to bottom, #005aa7, #fffde4);
     display: flex;
     justify-content: center;
@@ -178,7 +179,7 @@ iframe {
 /* Footer */
 footer {
     text-align: center;
-    background: #077220;
+    background: #060270;
     color: white;
     padding: 10px 0;
     position: relative;
