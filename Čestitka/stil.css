@@ -1,13 +1,13 @@
-body {
+
+svg {
+    background: linear-gradient(to bottom, #005aa7, #fffde4);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom, #005aa7, #fffde4);
     overflow: hidden;
     font-family: Arial, sans-serif;
 }
-
 /* 🎄 ANIMIRANE PAHULJE */
 @keyframes snow {
     0% { transform: translateY(0px) rotate(0deg); opacity: 1; }
