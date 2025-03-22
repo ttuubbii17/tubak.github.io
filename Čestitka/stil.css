@@ -54,3 +54,63 @@ body {
 #bozic-text {
     animation: textGlow 2s infinite;
 }
+/* Header */
+header {
+    background: #11881b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigacija */
+nav {
+    background: #0d770d;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li:hover {
+    background: #035e0f;
+}
+
+/* Padajući meni */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #056012;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 150px;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+    display: block;
+}
+
