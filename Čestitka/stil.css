@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #005aa7, #fffde4);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* 🎄 ANIMIRANE PAHULJE */
+@keyframes snow {
+    0% { transform: translateY(0px) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+}
+
+.snowflake {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+    animation: snow linear infinite;
+}
+
+/* ❄️ Generisanje više pahulja */
+.snowflake:nth-child(1) { left: 10%; animation-duration: 8s; font-size: 18px; }
+.snowflake:nth-child(2) { left: 20%; animation-duration: 6s; font-size: 22px; }
+.snowflake:nth-child(3) { left: 30%; animation-duration: 9s; font-size: 20px; }
+.snowflake:nth-child(4) { left: 40%; animation-duration: 7s; font-size: 16px; }
+.snowflake:nth-child(5) { left: 50%; animation-duration: 10s; font-size: 24px; }
+.snowflake:nth-child(6) { left: 60%; animation-duration: 8s; font-size: 19px; }
+.snowflake:nth-child(7) { left: 70%; animation-duration: 7s; font-size: 21px; }
+.snowflake:nth-child(8) { left: 80%; animation-duration: 5s; font-size: 17px; }
+.snowflake:nth-child(9) { left: 90%; animation-duration: 11s; font-size: 23px; }
+
+/* 🎅 TREPERENJE NOSA SNJEGOVIĆA */
+@keyframes blink {
+    0% { fill: orange; }
+    50% { fill: red; }
+    100% { fill: orange; }
+}
+
+#nose {
+    animation: blink 1s infinite;
+}
+
+/* ✨ TITRANJE TEKSTA "Sretan Božić" */
+@keyframes textGlow {
+    0% { transform: scale(1); text-shadow: 2px 2px 10px white; }
+    50% { transform: scale(1.1); text-shadow: 4px 4px 15px yellow; }
+    100% { transform: scale(1); text-shadow: 2px 2px 10px white; }
+}
+
+#bozic-text {
+    animation: textGlow 2s infinite;
+}
